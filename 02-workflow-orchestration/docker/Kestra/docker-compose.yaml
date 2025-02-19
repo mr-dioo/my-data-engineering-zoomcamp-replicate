@@ -60,6 +60,8 @@ services:
               basePath: "/app/storage"
           queue:
             type: postgres
+          tutorialFlows:    
+            enabled: false
           tasks:
             tmpDir:
               path: /tmp/kestra-wd/tmp
