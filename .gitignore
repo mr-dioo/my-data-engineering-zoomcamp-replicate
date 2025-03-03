@@ -114,3 +114,14 @@ terraform.rc
 
 **/Keys/*
 
+#dbt ignore
+**/dbt-env
+**/postgres-data
+**/pgadmin-data
+target/
+dbt_packages/
+logs/
+**/dbt-env/
+**/Scripts/
+
+04-Analytic-Engineer/note.md
